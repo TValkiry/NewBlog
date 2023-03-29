@@ -1,11 +1,13 @@
 body {
-    background-color: black;
-    color: blue; 
+    background-color: #111;
+    color: whitesmoke; 
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .hero {
-    background-color: pink;
-    color: whitesmoke;
+    background-image: url(https://source.unsplash.com/random/1920x1080);
+    background-position: center;
+    color: black;
 }
 
 .content {
@@ -13,10 +15,25 @@ body {
     padding: 50px;
 }
 
+nav {
+    background-color: rgba(0, 0, 0, .4);
+    display: block;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
     
 }
 
